@@ -21,10 +21,7 @@ Also it is important to say that both CPU's are used; one for the loop function,
 
 There are loads of credits to sources of information to build this as follows:
 
-SD Integration: https://github.com/espressif/arduino-esp32/tree/master/libraries/SD
-
-Solax API and Mapping:
-  https://community.home-assistant.io/t/solax-hybrid-inverter/22123
-  https://github.com/dickontoo/inverter
+Integrating an SD without a dedicated module: https://github.com/espressif/arduino-esp32/tree/master/libraries/SD
+Starting my on being able to map the Solax API: https://community.home-assistant.io/t/solax-hybrid-inverter/22123
 
 Have fun
