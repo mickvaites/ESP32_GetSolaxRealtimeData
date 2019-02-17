@@ -6,12 +6,12 @@ This project started out life as a very simple Arduino project using ESP8266, an
 
 The live implementation of the project makes use of the ESP32's onboard Wifi, to communicate with the Inverter, I'm using a HelTech ESP with onboard OLED, and I've attached five external LED's and a light sensor (details below). 
 
-LED(GPIO25) - Automatic Control Enabled
-LED(GPIO16) - Power Switch One Enabled
-LED(GPIO17) - Power Switch Two Enabled
-LED(GPIO02) - Power Switch One Powered On
-LED(GPIO04) - Power Switch Two Powered On
-CDR(GPIO32) - Light Sensor (the screen and LED's can be turned off if in a dark environment)
+* LED(GPIO25) - Automatic Control Enabled
+* LED(GPIO16) - Power Switch One Enabled
+* LED(GPIO17) - Power Switch Two Enabled
+* LED(GPIO02) - Power Switch One Powered On
+* LED(GPIO04) - Power Switch Two Powered On
+* CDR(GPIO32) - Light Sensor (the screen and LED's can be turned off if in a dark environment)
 
 In addition to this, there is a DS1307 Realtime clock and an SD Card for data collection.
 
@@ -21,7 +21,7 @@ Also it is important to say that both CPU's are used; one for the loop function,
 
 There are loads of credits to sources of information to build this as follows:
 
-Integrating an SD without a dedicated module: https://github.com/espressif/arduino-esp32/tree/master/libraries/SD
-Starting my on being able to map the Solax API: https://community.home-assistant.io/t/solax-hybrid-inverter/22123
+* Integrating an SD without a dedicated module: https://github.com/espressif/arduino-esp32/tree/master/libraries/SD
+* Starting my on being able to map the Solax API: https://community.home-assistant.io/t/solax-hybrid-inverter/22123
 
 Have fun
