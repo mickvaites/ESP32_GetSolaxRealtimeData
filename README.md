@@ -13,8 +13,18 @@ LED(GPIO02) - Power Switch One Powered On
 LED(GPIO04) - Power Switch Two Powered On
 CDR(GPIO32) - Light Sensor (the screen and LED's can be turned off if in a dark environment)
 
+In addition to this, there is a DS1307 Realtime clock and an SD Card for data collection.
+
 An appology must be made for my approach to the code - it evolved and I have built is using the Arduino IDE. This means that whilst Classes have been written for realtime stuff, there is a single module with every thing pulled from headers. The power switch project has been written properly, but I haven't got round to doing that for this. So the order and placement of the #include statements is important!
 
 Also it is important to say that both CPU's are used; one for the loop function, which collects data and updates data structures, and the second with keeps the display updated, with things like a clock and a battery charging indicator.
 
-Have fun.
+There are loads of credits to sources of information to build this as follows:
+
+SD Integration: https://github.com/espressif/arduino-esp32/tree/master/libraries/SD
+
+Solax API and Mapping:
+  https://community.home-assistant.io/t/solax-hybrid-inverter/22123
+  https://github.com/dickontoo/inverter
+
+Have fun
