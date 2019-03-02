@@ -1,6 +1,6 @@
 # ESP32_GetSolaxRealtimeData
 
-I currently have a Solax Solar System, with a LiPo battery providing sufficient capacity to provide 1Kw of power for an hour when fully charged. So it seemed to make sense that should be able to monitor the sun, the battery and turn devices on to use the spare capacity. An additional project was completed which was to retrofit the SONOFF Basic B1 (ESP8266) Power Switches to incorporate a simple dual timer, and a JSON interface for feedback and control. This project controls a pair of them.
+I currently have a Solax Solar System, with a LiPo battery providing sufficient capacity to provide 4Kw of power for an hour when fully charged. So it seemed to make sense that should be able to monitor the sun, the battery and turn devices on to use the spare capacity. An additional project was completed which was to retrofit the SONOFF Basic B1 (ESP8266) Power Switches to incorporate a simple dual timer, and a JSON interface for feedback and control. This project controls a pair of them.
 
 This project started out life as a very simple Arduino project using ESP8266, and as it required more grunt was first converted to Python running from a RaspberryPi and as realtime code in Python is quite unstable, it was converted to run from dual core ESP32.
 
